@@ -1,0 +1,36 @@
+.centerbox {
+    display: flex;
+    justify-content: center;
+}
+
+.buttonbox {
+    display: flex;
+    justify-content: center; 
+}
+
+#move {
+    position: absolute;
+    transition: 0.1s;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    position: absolute;
+}
+
+.btn{
+    font-weight: 600;
+    color: #040408;
+    background-color: #FF407D;
+    padding: 10px 30px;
+    border: #FB88B4;
+    border-color: #FB88B4;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 14px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #FB88B4;
+    color: #040408;
+}
