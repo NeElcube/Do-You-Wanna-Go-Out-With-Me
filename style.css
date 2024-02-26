@@ -1,3 +1,14 @@
+body {
+    background-color: #F28585;
+    display: flex;   
+    justify-content: center;   
+    align-items: center;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
 .centerbox {
     display: flex;
     justify-content: center;
@@ -14,6 +25,11 @@
     transform: translate(-50%, -50%);
 }
 
+.pinguin {
+    width: 25%;
+    height: auto;
+}
+
 button {
     position: absolute;
 }
@@ -23,8 +39,8 @@ button {
     color: #040408;
     background-color: #FF407D;
     padding: 10px 30px;
-    border: #FB88B4;
-    border-color: #FB88B4;
+    border-width: 2px;
+    border-color: #040408;
     box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
     border-radius: 14px;
     cursor: pointer;
