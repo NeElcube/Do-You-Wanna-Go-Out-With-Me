@@ -9,6 +9,9 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         <script src="script.js"></script>
+        <audio id="yay" preload="auto">
+            <source src="sound/yay.mp3" />
+        </audio>
     </head>
     <body>
         <div>
@@ -20,7 +23,7 @@
                     <h1>Do you wanna go out with me?</h1>
                 </div>
                 <div class="buttonbox">
-                    <p><button class="btn" onclick="">No</button><button id="move" class="btn" onclick="window.location.href='yes.html'">Yes</button></p>
+                    <p><button class="btn" onclick="">No</button><button id="move" class="btn" onclick="yes()">Yes</button></p>
                 </div>
             </div>
         </div>
